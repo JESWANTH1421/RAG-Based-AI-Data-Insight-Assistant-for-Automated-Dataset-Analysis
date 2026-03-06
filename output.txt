@@ -1,0 +1,26 @@
+📊 RAG-Based AI Data Insight Assistant
+Ask natural language questions about your dataset. Upload a CSV or use the default housing dataset.
+
+Preview dataset
+
+Ask a question
+
+
+
+Your question
+
+what features affect house prices?
+Answer
+price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode
+
+Retrieved context used for this answer
+
+Dataset insight summary: The housing dataset has numeric features including price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode. Key statistics and correlations have been computed. Use correlation with price to understand which features affect house prices.
+
+Features most positively correlated with price: sqft_living(0.868), grade(0.864), bathrooms(0.824)
+
+Features most negatively correlated with price: condition(0.027), waterfront(nan), view(nan)
+
+Correlation with price: sqft_living: 0.868 grade: 0.864 bathrooms: 0.824 sqft_above: 0.801 sqft_lot: 0.657 yr_built: 0.562 sqft_basement: 0.542 bedrooms: 0.536 floors: 0.390 yr_renovated: 0.098 condition: 0.027 zipcode: -0.113
+
+Summary statistics (numeric columns): price: mean=416696.65, std=174583.34, min=180000.00, max=1225000.00 bedrooms: mean=3.21, std=0.54, min=2.00, max=4.00 bathrooms: mean=1.98, std=0.66, min=1.00, max=4.50 sqft_living: mean=1785.12, std=712.23, min=770.00, max=5420.00 sqft_lot: mean=8583.27, std=13260.91, min=3990.00, max=101930.00 floors: mean=1.29, std=0.46, min=1.00, max=2.00 waterfront: mean=0.00, std=0.00, min=0.00, max=0.00 view: mean=0.00, std=0.00, min=0.00, max=0.00 condition:
